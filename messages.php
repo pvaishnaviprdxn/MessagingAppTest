@@ -20,12 +20,14 @@
   <div class="container">
     <!--header section start-->
     <header>
-    <h1>
-        <a href="homepage.php" title="Messaging App">
-          <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
-        </a>
-      </h1>
-      <a href="logout.php" title="Logout" class="logout">Logout</a>
+      <div class="wrapper">
+        <h1>
+          <a href="homepage.php" title="Messaging App">
+            <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
+          </a>
+        </h1>
+        <a href="logout.php" title="Logout" class="logout">Logout</a>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
