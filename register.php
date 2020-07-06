@@ -37,7 +37,7 @@
     <!--header section start-->
     <!--main section start-->
     <main>
-      <!--<section>
+      <section>
         <h2>Registration form</h2>
         <form method="POST" enctype="multipart/form-data">
           <div class="form-group">
@@ -75,7 +75,7 @@
           </div>
         </form>
       </section>
-    </main>-->
+    </main>
     <!--main section end-->
 
     <!--footer section start
