@@ -36,7 +36,7 @@
     <!--header section start-->
     <!--main section start-->
     <main>
-      <!--<section>
+      <section>
         <div class="wrapper">
           <h2>to have your best experience with us please <span class="up">login</span></h2>
           <form method="post" enctype="multipart/form-data">
@@ -59,7 +59,7 @@
             <span class="register-info">if you don't have account <a href="register.php" title="Click here to register">click here to register</a></span>
           </form>
         </div>
-      </section>-->
+      </section>
     </main>
     <!--main section end-->
 
