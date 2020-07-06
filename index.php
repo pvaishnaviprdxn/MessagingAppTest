@@ -21,17 +21,19 @@
   <div class="container">
     <!--header section start-->
     <header>
-      <h1>
-        <a href="homepage.php" title="Messaging App">
-          <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
-        </a>
-      </h1>
-      <!--login/register options start -->
-      <div class="login-register">
-        <a href="index.php" title="Login" class="login">Login</a>
-        <a href="register.php" title="Register" vlass="register">Register</a>
+      <div class="wrapper">
+        <h1>
+          <a href="homepage.php" title="Messaging App">
+            <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
+          </a>
+        </h1>
+        <!--login/register options start -->
+        <div class="login-register">
+          <a href="index.php" title="Login" class="login">Login</a>
+          <a href="register.php" title="Register" vlass="register">Register</a>
+        </div>
+        <!--login/register options end -->
       </div>
-      <!--login/register options end -->
     </header>
     <!--header section start-->
     <!--main section start-->

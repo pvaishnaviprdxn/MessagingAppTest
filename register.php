@@ -22,58 +22,62 @@
   <div class="container">
     <!--header section start-->
     <header>
-      <h1>
-        <a href="homepage.php" title="Messaging App">
-          <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
-        </a>
-      </h1>
-      <!--login/register options start -->
-      <div class="login-register">
-        <a href="index.php" title="Login" class="login">Login</a>
-        <a href="register.php" title="Register" vlass="register">Register</a>
+      <div class="wrapper">
+        <h1>
+          <a href="homepage.php" title="Messaging App">
+            <img src="https://via.placeholder.com/120x40.png?text=Messaging App" alt="Messaging App">
+          </a>
+        </h1>
+        <!--login/register options start -->
+        <div class="login-register">
+          <a href="index.php" title="Login" class="login">Login</a>
+          <a href="register.php" title="Register" vlass="register">Register</a>
+        </div>
+        <!--login/register options end -->
       </div>
-      <!--login/register options end -->
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
       <section>
-        <h2>Registration form</h2>
-        <form method="POST" enctype="multipart/form-data">
-          <div class="form-group">
-            <label>First name:</label>
-            <input type="text" name="fname" placeholder="Enter First Name">
-            <span class="error"></span>
-          </div>
-          <div class="form-group">
-            <label>Last name:</label>
-            <input type="text" name="lname" placeholder="Enter Last Name">
-            <span class="error"></span>
-          </div>
-          <div class="form-group">
-            <label>Email:</label>
-            <input type="text" name="email" placeholder="eg:name@example.com">
-            <span class="error"></span>
-          </div>
-          <div class="form-group">
-            <label>Phone no.:</label>
-            <input type="text" name="phone" placeholder="Enter your phone nu.">
-            <span class="error"></span>
-          </div>
-          <div class="form-group">
-            <label>Password:</label>
-            <input type="password" name="password" placeholder="Enter password">
-            <span class="error"></span>
-          </div>
-          <div class="form-group">
-            <label>Confirm Password:</label>
-            <input type="password" name="cpassword" placeholder="Enter confirmed password">
-            <span class="error"></span>
-          </div>
-          <div class="form-control">
-            <input type="submit" value="Register">
-          </div>
-        </form>
+        <div class ="wrapper">
+          <h2>Registration form</h2>
+          <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+              <label>First name:</label>
+              <input type="text" name="fname" placeholder="Enter First Name">
+              <span class="error"></span>
+            </div>
+            <div class="form-group">
+              <label>Last name:</label>
+              <input type="text" name="lname" placeholder="Enter Last Name">
+              <span class="error"></span>
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="text" name="email" placeholder="eg:name@example.com">
+              <span class="error"></span>
+            </div>
+            <div class="form-group">
+              <label>Phone no.:</label>
+              <input type="text" name="phone" placeholder="Enter your phone nu.">
+              <span class="error"></span>
+            </div>
+            <div class="form-group">
+              <label>Password:</label>
+              <input type="password" name="password" placeholder="Enter password">
+              <span class="error"></span>
+            </div>
+            <div class="form-group">
+              <label>Confirm Password:</label>
+              <input type="password" name="cpassword" placeholder="Enter confirmed password">
+              <span class="error"></span>
+            </div>
+            <div class="form-control">
+              <input type="submit" value="Register">
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <!--main section end-->
